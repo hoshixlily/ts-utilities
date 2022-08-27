@@ -1,6 +1,5 @@
 {
     "name": "@mirei/ts-utilities",
-    "version": "1.0.0",
     "description": "A collection of utility classes for TypeScript",
     "main": "dist/index.js",
     "module": "dist/index.es.js",
@@ -10,6 +9,7 @@
         "build": "webpack",
         "docs": "npx typedoc",
         "prebuild": "rimraf dist",
+        "prepare": "husky install",
         "test": "nyc _mocha --require ts-node/register --recursive tests/**/*.test.*"
     },
     "author": "Lumine",
@@ -19,11 +19,14 @@
         "readme.md"
     ],
     "devDependencies": {
+        "@commitlint/cli": "^17.1.1",
+        "@commitlint/config-conventional": "^17.1.0",
         "@types/chai": "^4.3.3",
         "@types/mocha": "^9.1.1",
         "braces": "^3.0.2",
         "chai": "^4.3.6",
         "chokidar": "^3.5.3",
+        "husky": "^8.0.1",
         "mocha": "^10.0.0",
         "nyc": "^15.1.0",
         "prettier": "^2.7.1",
