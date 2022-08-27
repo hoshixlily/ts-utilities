@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/merophise/ts-utilities/compare/v1.0.0...v1.0.1) (2022-08-27)
+
+
+### Bug Fixes
+
+* prevent utility classes from being extendable ([609a73a](https://github.com/merophise/ts-utilities/commit/609a73ad5966cc6ff629b745c90b585a86538e58))
+
 # 1.0.0 (2022-08-27)
 
 
