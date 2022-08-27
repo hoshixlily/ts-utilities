@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/merophise/ts-utilities/compare/v1.1.0...v1.2.0) (2022-08-27)
+
+
+### Bug Fixes
+
+* fix build configs ([e6b1041](https://github.com/merophise/ts-utilities/commit/e6b1041dcac4d84da503152c005d7124b82853df))
+
+
+### Features
+
+* implement color classes ([e0cf8c1](https://github.com/merophise/ts-utilities/commit/e0cf8c1afbe906e37b885ac00c8ae8eb3b3028fa))
+
 # [1.1.0](https://github.com/merophise/ts-utilities/compare/v1.0.2...v1.1.0) (2022-08-27)
 
 
