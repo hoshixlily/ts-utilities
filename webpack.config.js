@@ -1,16 +1,14 @@
 const path = require("path");
 
 module.exports = {
-    entry: "./index.ts",
+    entry: "./src/index.ts",
+    devtool: "inline-source-map",
     mode: "production",
-    devtool: "source-map",
     module: {
         rules: [
             {
-                test: /ts?$/,
-                use: {
-                    loader: "ts-loader"
-                },
+                test: /\.tsx?$/,
+                use: "ts-loader",
                 exclude: /node_modules|tests/
             }
         ]
@@ -19,10 +17,6 @@ module.exports = {
         extensions: [".ts", ".js"]
     },
     output: {
-        library: {
-            name: ["ts-utilities"],
-            type: "umd"
-        },
         filename: "index.js",
         path: path.resolve(__dirname, "dist")
     }
