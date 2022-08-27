@@ -1,0 +1,42 @@
+{
+    "name": "@mirei/ts-utilities",
+    "version": "1.0.0",
+    "description": "A collection of utility classes for TypeScript",
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "umd:main": "dist/index.umd.js",
+    "scripts": {
+        "build": "webpack",
+        "docs": "npx typedoc",
+        "prebuild": "rimraf dist",
+        "test": "nyc _mocha --require ts-node/register --recursive tests/**/*.test.*"
+    },
+    "author": "Lumine",
+    "license": "MIT",
+    "files": [
+        "dist",
+        "readme.md"
+    ],
+    "devDependencies": {
+        "@types/chai": "^4.3.3",
+        "@types/mocha": "^9.1.1",
+        "braces": "^3.0.2",
+        "chai": "^4.3.6",
+        "chokidar": "^3.5.3",
+        "mocha": "^10.0.0",
+        "nyc": "^15.1.0",
+        "prettier": "^2.7.1",
+        "rimraf": "^3.0.2",
+        "source-map-support": "^0.5.21",
+        "ts-loader": "^9.3.1",
+        "ts-node": "^10.9.1",
+        "typedoc": "^0.23.11",
+        "typescript": "^4.8.2",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0"
+    },
+    "optionalDependencies": {
+        "fsevents": "*"
+    }
+}
