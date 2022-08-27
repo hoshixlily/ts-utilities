@@ -12,13 +12,18 @@
         "prepare": "husky install",
         "test": "nyc _mocha --require ts-node/register --recursive tests/**/*.test.*"
     },
-    "author": "Lumine",
+    "author": {
+        "name": "Lumine"
+    },
     "license": "MIT",
     "private": false,
     "files": [
         "dist",
         "readme.md"
     ],
+    "publishConfig": {
+        "access": "public"
+    },
     "devDependencies": {
         "@commitlint/cli": "^17.1.1",
         "@commitlint/config-conventional": "^17.1.0",
