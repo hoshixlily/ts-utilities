@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/merophise/ts-utilities/compare/v1.0.1...v1.0.2) (2022-08-27)
+
+
+### Bug Fixes
+
+* potential fix for publish error ([fd5594c](https://github.com/merophise/ts-utilities/commit/fd5594c8ea9ff3f9c3b23f140e7de6713422e3a1))
+
 ## [1.0.1](https://github.com/merophise/ts-utilities/compare/v1.0.0...v1.0.1) (2022-08-27)
 
 
