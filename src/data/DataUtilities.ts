@@ -1,4 +1,6 @@
 export abstract class DataUtilities {
+    private constructor() {}
+
     /**
      * Returns an array of distinct element from a given iterable source.
      * @param iterable Collection of items

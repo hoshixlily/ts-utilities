@@ -1,4 +1,6 @@
 export abstract class NumberUtilities {
+    private constructor() {}
+
     /**
      * Generates a random number between the given min-max intervals. The interval bounds, min and max, are inclusive.
      * @param min Smallest value that the generated random number can take

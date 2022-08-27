@@ -1,4 +1,6 @@
 export abstract class StringUtilities {
+    private constructor() {}
+
     /**
      * Generates a random string with the given length. If the characters parameter is provided,
      * the string will be formed based on that characters. Otherwise, it will use [a-zA-Z0-9] values.
