@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/merophise/ts-utilities/compare/v1.0.2...v1.1.0) (2022-08-27)
+
+
+### Features
+
+* implement initial math utilities ([7e6374f](https://github.com/merophise/ts-utilities/commit/7e6374f410a09603c823b51d3dcff03cbf74e08a))
+
 ## [1.0.2](https://github.com/merophise/ts-utilities/compare/v1.0.1...v1.0.2) (2022-08-27)
 
 
